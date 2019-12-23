@@ -1,6 +1,5 @@
-# metabolism_cross pipeline
-
-##usage  
+# metabolism_cross pipeline  
+## usage  
 Rscript /home/swf/bin/metabolism/new_pipeline.R -d /home/swf/Project/S9540CA/new -q /home/swf/Project/S9540CA/MS_identified_information.xlsx -m BvsA_meta.txt -s /home/swf/Project/S9540CA/sample.txt -g BvsA -r 1.5 -p 0.05 -l 1 -f 0.05 -v 1 -k /home/swf/Project/S9540CA/new/annotation/KEGG_pathway_annotation.xls -c /home/swf/Project/S9540CA/new/annotation/KEGG_compound_annotation.xls -o hsa   
 
 **-d:** working dir (results dir),default MS file dir  
